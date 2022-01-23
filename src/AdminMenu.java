@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class AdminMenu {
     static final Scanner input = new Scanner(System.in);
     static AdminResource adminResource = AdminResource.getInstance();
-
+    int iii = 0;
     public AdminMenu() {
     }
 
@@ -91,7 +91,7 @@ public class AdminMenu {
                 System.out.println("5. Add Test Data");
                 System.out.println("6. Back to Main Menu");
                 System.out.println("____________________________________________");
-                System.out.println("Please select a number for the menu option");
+                System.out.println("Please select a number above for the menu option.");
                 i = input.next().trim();
                 switch (i) {
                     case "1":
